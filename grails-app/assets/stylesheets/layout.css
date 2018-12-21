@@ -1,0 +1,190 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	position: relative;
+	width: 100%;
+	background-image: url(BGHeader.png);
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	height: 630px;
+}
+#meuMenu{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background-color: #065797;
+	bottom: 0;
+}
+#logo{
+	width: 40%;
+	height: 60%;
+	position:absolute;
+	top:15%;
+	left:10%;
+}
+main{
+	margin-top:100px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+#menu{
+	margin: 0 auto;
+}
+nav td{
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Fredoka One', cursive;
+	font-weight: bold;
+	position: relative;
+	box-sizing: border-box;
+	font-size: 1.3em;
+	color: white;
+	position: relative;
+	cursor: pointer;
+	animation: all 40ms ease;
+}
+table{
+	height: 100%;
+	border-spacing: 0px;
+
+}
+footer{
+	position: absolute;
+	width: 100%;
+	background-color: #065797;
+	height: 300px;
+	left:0px;
+
+}
+.fixar {
+	position:fixed;
+	z-index:999 !important;
+	margin-top: 0px !important;
+	top: 0px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+#imagem1{
+	margin-left: 40px;
+	margin-bottom: 40px;
+	float: right;
+	width: 300px;
+	height: 300px;
+}
+.efeito-1{
+	background-color: #065797;
+}
+.efeito-2{
+	background-color: #065797;
+}
+.efeito-1:before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 0px;
+	background: white;
+	transition: all 2s ease;
+
+}
+.efeito-2:before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	background: white;
+	transition: all 2s ease;
+
+}
+.efeito-1:hover:before{
+	width: 100%;
+}
+.efeito-2:hover:before{
+	width: 100%;
+}
+.sel_a{
+	color: #065797 !important;
+	text-decoration: none;
+	position:relative;
+	transition: all 2s ease;
+}
+.branco{
+	color:white;
+}
+.login{
+	padding-left: 50px;
+	padding-right: 50px;
+	color:white;
+	font-size: 1.1em;
+	border-radius: 0px 0px 20px 20px;
+}
+
+//Botões
+.btn {
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: mile;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #007bff;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+.btn, .button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    border-radius: 0;
+    cursor: pointer;
+}
+.btn, button, input, textarea {
+    box-shadow: none;
+    outline: 0 !important;
+}
+.container{
+  width:100%;
+  padding:0;
+}
+
+
+
+
