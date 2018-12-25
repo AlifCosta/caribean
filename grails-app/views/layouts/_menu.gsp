@@ -2,7 +2,7 @@
     		    			<table id="menu">
                 				<tr>
                 					<td>
-                						<g:link controller="menu" action="index">Início</g:link>
+                						<a href="javascript:void(0)" onclick="limparConteudo();">Início</a>
                 					</td>
                 					<td>
                 					    <g:link controller="menu" action="quartos">Quartos</g:link>

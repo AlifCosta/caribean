@@ -61,7 +61,7 @@ footer{
 
 }
 .fixar {
-	position:fixed;
+	position:fixed !important;
 	z-index:999 !important;
 	margin-top: 0px !important;
 	top: 0px;
@@ -127,8 +127,6 @@ img{
 	font-size: 1.1em;
 	border-radius: 0px 0px 20px 20px;
 }
-
-//Botões
 .btn {
     font-weight: 400;
     text-align: center;

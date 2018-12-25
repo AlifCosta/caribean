@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" href="apple-icon.png">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <asset:stylesheet src="bootstrap.min.css" />
+    <asset:stylesheet src="vendors/bootstrap/dist/css/bootstrap.min.css"/>
     <asset:stylesheet src="vendors/font-awesome/css/font-awesome.min.css"/>
     <asset:stylesheet src="vendors/themify-icons/css/themify-icons.css"/>
     <asset:stylesheet src="vendors/flag-icon-css/css/flag-icon.min.css"/>

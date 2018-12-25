@@ -23,5 +23,6 @@ class Hotel {
         bairro(nullable:false,blank:false,maxSize:100)
         logadouro(nullable:false,blank:false,maxSize:100)
         estrelas(min:1,max:5)
+        avaliacoes(nullable:true,blank:true)
     }
 }

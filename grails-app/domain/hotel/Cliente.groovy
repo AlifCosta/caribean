@@ -8,6 +8,7 @@ class Cliente {
     String foto
     String estado
     String pais
+    Double conta
     static hasMany=[quartos:Quarto,avaliacoes:Avaliacao,gerentes:Gerente]
     static belongsTo=[gerentes:Gerente]
     static constraints = {
@@ -18,5 +19,9 @@ class Cliente {
         foto(nullable:false,blank:false)
         estado(nullable:false,blank:false,maxSize:200)
         pais(nullable:false,blank:false,maxSize:200)
+        conta(nullable: true,blank:true)
+        quartos(nullable:true,blank:true)
+        avaliacoes(nullable:true,blank:true)
+        gerentes(nullable:true,blank:true)
     }
 }
